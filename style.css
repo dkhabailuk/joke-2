@@ -1,0 +1,161 @@
+@media (min-width:1024px){  
+    .container{
+        margin: 0 auto;
+        border:1px solid black;
+        width: 600px; 
+    }
+    .div-block2-2{
+        display: none;
+    }
+    .title{
+        text-align: center;
+        font-family:sans-serif;
+    }
+    .first-img{
+        border: 1px solid black;
+    }
+    .second-img{
+        border: 1px solid black;
+    }
+    .third-img{
+        border: 1px solid black;
+    }
+    .div-block1{
+        display: flex;
+        justify-content: space-between
+    }
+    .div-block2{
+        display: flex;
+        justify-content: space-between
+    }
+    .div-block3{
+        display: flex;
+        justify-content: space-between
+    }
+    .text1{
+        font-size: 12px;
+        margin-top: 15px;
+        font-family: sans-serif;
+        font-weight: bold;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .ones{
+        color: rgb(246, 188, 81);
+    }
+    .twos{
+        color: blue;
+    }
+    .threes{
+        color: red;
+    }
+    .red-button{
+        display: none;
+    }
+}
+@media (min-width:600px) and (max-width:1023px) {
+     .container{
+        margin: 0 auto;
+        border:1px solid black;
+        width: 600px;
+    }
+    .title{
+         font-family:sans-serif;
+        text-decoration: underline;
+        margin-left: 15px;
+    }
+    .red-button{
+        display: none;
+    }
+    .div-block1{
+        display: flex;
+        justify-content:space-between;
+        margin-bottom: 15px;
+     }
+    .div-block2-2{
+        display: flex;
+        justify-content:space-between;
+        margin-bottom: 15px;
+    }
+    .div-block2{
+         display: none;
+    }
+    .div-block3{
+        display: flex;
+        justify-content:space-between;
+    }
+    .text1{
+         font-size: 12px;
+        margin-top: 15px;
+        font-family: sans-serif;
+        font-weight: bold;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .ones{
+        color: rgb(246, 188, 81);
+    }
+    .twos{
+        color: blue;
+    }
+    .threes{
+         color: red;
+    }
+    .first-img{
+        border: 3px solid rgb(246, 188, 81);
+    }
+    .second-img{
+         border: 3px solid blue;
+    }
+    .third-img{
+        border: 3px solid red;
+    }
+}
+@media (max-width:599px) {
+    .div-block2-2{
+        display: none;
+    }
+    .container{
+        margin: 0 auto;
+        border:1px solid black;
+        width: 210px;
+    }
+    .text1{
+        display: none;
+    }
+    img{
+        margin-left:5px;
+        outline: 3px solid black;
+    }
+    .title{
+        text-align: center;
+        font-family:sans-serif;
+        color: red;
+    }
+    .red-button{
+        background-color: red;
+        border: none;
+        color: white;
+        width:60px;
+        height: 30px;
+        font-weight: bold;
+        font-family: sans-serif;
+        justify-content: flex-end;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-right: 10px;
+        margin-left:145px;
+    }
+    .div-block1{
+        display: flex;
+        flex-direction: column;
+    }
+    .div-block2{
+        display: flex;
+        flex-direction: column;
+    }
+    .div-block3{
+        display: flex;
+        flex-direction: column;
+    } 
+}
